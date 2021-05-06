@@ -4,7 +4,7 @@ Integrantes:
 - Agustín Gutiérrez Talavera
 - Ana Luisa Montero
 - Diana Rojas
-- Ximena Aquino Pérez
+- Ximena Aquino Pérez / A01639678
 - Samir Ortiz
 ## Instalar dependencias necesarias:
 - Python3
