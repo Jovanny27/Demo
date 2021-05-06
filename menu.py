@@ -108,7 +108,6 @@ while i != 4:
            Cabe recalcar que también se debe de descargar un modelo pre-hecho que nos va a servir para poder identficar entre
            la cara con cubrebocas y sin cubrebocas el cual lleva como nombre "mask_recog1.h5"
             """
-        import cv2
         import os
         from tensorflow.keras.preprocessing.image import img_to_array
         from tensorflow.keras.models import load_model
