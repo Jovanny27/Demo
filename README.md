@@ -1,6 +1,6 @@
 # Evidencia Equipo 1
 Integrantes: 
-- Jovanny Rafael Ramirez | 
+- Jovanny Rafael Ramirez | A01639287
 - Agustín Gutiérrez Talavera | 
 - Ana Luisa Montero | A01638796
 - Diana Rojas | 
