@@ -5,6 +5,7 @@ Integrantes:
 - Ana Luisa Montero
 - Diana Rojas
 - Ximena Aquino Pérez
+- Samir Ortiz
 ## Instalar dependencias necesarias:
 - Python3
 - OpenCV
@@ -12,4 +13,5 @@ Integrantes:
 - pip 21.1.1
 - Brew
 - Mtcnn
+- imutils
 
