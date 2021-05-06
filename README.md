@@ -14,4 +14,7 @@ Integrantes:
 - Brew
 - Mtcnn
 - imutils
-# Explicación de programa filtro.py 
+# Objetivo de programa filtro.py 
+El objetivo del programa filtro es básicamente colocar la imagen del borrego Tec en la frente de la persona que se encuentra frente a la cámara. Algunas de las consideraciones que se tomaron en cuenta para que el filtro funcione de la manera más optima posible fueron:
+-Ajuste del filtro (puede ajustarse dependiendo de la distancia entre la persona y la cámara).
+-Ajuste predeterminado del filtro (Se ajusta la imagen a la cara de la persona)
