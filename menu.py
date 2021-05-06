@@ -1,5 +1,10 @@
 #Menú para funciones
-
+import cv2
+import os
+from tensorflow.keras.preprocessing.image import img_to_array
+from tensorflow.keras.models import load_model
+from tensorflow.keras.applications.mobilenet_v2 import preprocess_input
+import numpy as np
 i = 0
 
 while i != 4:
@@ -104,7 +109,7 @@ while i != 4:
         cv2.destroyAllWindows()
     elif i == 3:
             """
-           Primero importanmos las librerias que se utilizarán en el prgrama.
+           Primero importanmos las librerias que se utilizarán en el programa.
            Cabe recalcar que también se debe de descargar un modelo pre-hecho que nos va a servir para poder identficar entre
            la cara con cubrebocas y sin cubrebocas el cual lleva como nombre "mask_recog1.h5"
             """
