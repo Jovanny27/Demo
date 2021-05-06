@@ -114,16 +114,10 @@ while i != 4:
            la cara con cubrebocas y sin cubrebocas el cual lleva como nombre "mask_recog1.h5"
             """
             """
-           Primero importanmos las librerias que se utilizarán en el prgrama.
-           Cabe recalcar que también se debe de descargar un modelo pre-hecho que nos va a servir para poder identficar entre
-           la cara con cubrebocas y sin cubrebocas el cual lleva como nombre "mask_recog1.h5"
-            """
-            """
             El primer paso es encontrar la ruta al archivo "haarcascade_frontalface_alt2.xml".
             Hacemos esto usando el módulo os del lenguaje de Python.
             """
-        cascPath = os.path.dirname(
-            cv2.__file__) + "/data/haarcascade_frontalface_alt2.xml"
+        cascPath = os.path.dirname(cv2.__file__) + "/data/haarcascade_frontalface_alt2.xml"
             """
             El siguiente paso es cargar nuestro clasificador. La ruta al archivo xml anterior va
             como argumento del método CascadeClassifer() de OpenCV. También cargamos el modelo
@@ -155,11 +149,7 @@ while i != 4:
             indica que el algoritmo mira subregiones de la imagen en múltiples escalas, para
             detectar caras de diferentes tamaños.
             """
-            faces = faceCascade.detectMultiScale(gray,
-                                         scaleFactor=1.1,
-                                         minNeighbors=5,
-                                         minSize=(60, 60),
-                                         flags=cv2.CASCADE_SCALE_IMAGE)
+            faces = faceCascade.detectMultiScale(gray,scaleFactor=1.1,minNeighbors=5,minSize=(60, 60),flags=cv2.CASCADE_SCALE_IMAGE)
             """
             A continuación, definimos algunas listas. Face_list contiene todas las caras que son detectadas
             por el modelo FaseCascade y la lista de preds se usa para almacenar las predicciones hechas por
@@ -192,8 +182,7 @@ while i != 4:
             label = "Mask" if mask > withoutMask else "No Mask"
             color = (0, 255, 0) if label == "Mask" else (0, 0, 255)
             label = "{}: {:.2f}%".format(label, max(mask, withoutMask) * 100)
-            cv2.putText(frame, label, (x, y- 10),
-                    cv2.FONT_HERSHEY_SIMPLEX, 0.45, color, 2)
+            cv2.putText(frame, label, (x, y- 10),cv2.FONT_HERSHEY_SIMPLEX, 0.45, color, 2)
             """
             El cv2.rectangle() dibuja rectángulos sobre las imagenes y necesita conocer las coordenadas
             de píxeles de la esquina superior izquierda e inferior derecha. Las coordenadas indican la
