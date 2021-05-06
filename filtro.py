@@ -67,3 +67,5 @@ while True:
 
 cap.release()
 cv2.destroyAllWindows()
+# Este codigo fue extraido de el video de YouTube con direccion https://www.youtube.com/watch?v=R6wgJ6epakU
+#  Del canal OMES
