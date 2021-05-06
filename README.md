@@ -14,4 +14,4 @@ Integrantes:
 - Brew
 - Mtcnn
 - imutils
-
+# Explicación de programa filtro.py 
