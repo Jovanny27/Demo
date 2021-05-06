@@ -2,7 +2,7 @@
 Integrantes: 
 - Jovanny Rafael Ramirez | 
 - Agustín Gutiérrez Talavera | 
-- Ana Luisa Montero | 
+- Ana Luisa Montero | A01638796
 - Diana Rojas | 
 - Ximena Aquino Pérez | A01639678
 - Samir Ortiz | A01639922
