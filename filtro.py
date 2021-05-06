@@ -5,7 +5,7 @@ cap=cv2.VideoCapture(0, cv2.CAP_DSHOW)
 #imagenes a incrustar en el video
 #image = cv2.imread('gato.png', cv2.IMREAD_UNCHANGED)
 #image = cv2.imread('sombrerokul.png', cv2.IMREAD_UNCHANGED)
-image = cv2.imread('borre.png', cv2.IMREAD_UNCHANGED)
+image = cv2.imread('borre.png', cv2.IMREAD_UNCHANGED) # se seleciiona la imagen con formato png
 #image = cv2.imread('A.jpg', cv2.IMREAD_UNCHANGED)
 #print('image.shape = ' , image.shape)
 #cv2.imshow('image', image[:,:, 3])
