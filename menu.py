@@ -115,6 +115,11 @@ while i != 4:
         from tensorflow.keras.applications.mobilenet_v2 import preprocess_input
         import numpy as np
             """
+           Primero importanmos las librerias que se utilizarán en el prgrama.
+           Cabe recalcar que también se debe de descargar un modelo pre-hecho que nos va a servir para poder identficar entre
+           la cara con cubrebocas y sin cubrebocas el cual lleva como nombre "mask_recog1.h5"
+            """
+            """
             El primer paso es encontrar la ruta al archivo "haarcascade_frontalface_alt2.xml".
             Hacemos esto usando el módulo os del lenguaje de Python.
             """
