@@ -63,7 +63,7 @@ Una parte crucial de este código, al igual que algunos pasados, fue la manera e
 - Ximena Aquino Pérez | A01639678 Contribuyente
 - Samir Ortiz | A01639922 Contribuyente
 - Diego Kury | A00227097 Contribuyente
-- OMES (Youtube). https://www.youtube.com/watch?v=R6wgJ6epakU - Documentación
 ## Referencias
-- https://www.mygreatlearning.com/blog/real-time-face-detection/#sh1
+- Mujtaba,H. (2021). Real-time Face Dtection. Recuperado de https://www.mygreatlearning.com/blog/real-time-face-detection/#sh1
 - https://drive.google.com/file/d/16uMH4YwdkA8sdnMlJNE7nv_tBJkX5eNe/view
+- OMES (Youtube). https://www.youtube.com/watch?v=R6wgJ6epakU
