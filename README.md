@@ -64,4 +64,3 @@ Una parte crucial de este código, al igual que algunos pasados, fue la manera e
 - Samir Ortiz | A01639922 Contribuyente
 - Diego Kury | A00227097 Contribuyente
 - OMES (Youtube). https://www.youtube.com/watch?v=R6wgJ6epakU - Documentación
-- 
