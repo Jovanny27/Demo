@@ -24,6 +24,9 @@ Al correr el código, lo primero que aparece es el menú, el cual da a elegir cu
 # App de filtro
 Esta aplicación consiste en colocar una imagen en la frente de las personas que la cámara detecte. Algunas de las consideraciones de este filtro es que su tamaño se ajusta dependiendo de la distancia entre la persona y la cámara, y que se encuentra programado para solo aparecer en la frente. 
 ![filtro python](https://user-images.githubusercontent.com/83722304/117389921-cbb54b80-aeb2-11eb-9043-48723f738805.PNG)
+Haciendo uso de la librería cv2, llamamos a cv2.VideoCapture para iniciar el proceso de la cámara. Asímismo, se hicieron varios ajustes en el código para confirmar que el filtro se mantenga en el marco.
+![IMG_6472](https://user-images.githubusercontent.com/83785021/117402331-08854080-aebb-11eb-80bb-164cc0d30475.PNG)
+
 # App de distorción de color
 Consiste en distorsionar el color del streaming de la cámara por un color negro de fondo, definiendo los contornos de las figuras con lineas blancas y rellenando los curpos de pequeñas figuras blancas irregulares.
 ![edges python](https://user-images.githubusercontent.com/83722304/117390981-b3dec700-aeb4-11eb-8bbb-cf40a11d2ddf.PNG)
