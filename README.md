@@ -23,20 +23,35 @@ Nuestro proyecto cuenta principalmente de tres diferentes aplicaciones dentro de
 Al correr el código, lo primero que aparece es el menú, el cual da a elegir cuál es la aplicación que se desea utilizar.
 # App de filtro
 Esta aplicación consiste en colocar una imagen en la frente de las personas que la cámara detecte. Algunas de las consideraciones de este filtro es que su tamaño se ajusta dependiendo de la distancia entre la persona y la cámara, y que se encuentra programado para solo aparecer en la frente. 
+
 ![filtro python](https://user-images.githubusercontent.com/83722304/117389921-cbb54b80-aeb2-11eb-9043-48723f738805.PNG)
+
 Haciendo uso de la librería cv2, llamamos a cv2.VideoCapture para iniciar el proceso de la cámara. Asímismo, se hicieron varios ajustes en el código para confirmar que el filtro se mantenga en el marco y donde debe de estar posicionado respecto a la cara.
+
 ![img1](https://user-images.githubusercontent.com/83785021/117402417-379bb200-aebb-11eb-9aad-d3719eb9d13a.png)
 
 
 # App de distorción de color
 Consiste en distorsionar el color del streaming de la cámara por un color negro de fondo, definiendo los contornos de las figuras con lineas blancas y rellenando los curpos de pequeñas figuras blancas irregulares.
+
 ![edges python](https://user-images.githubusercontent.com/83722304/117390981-b3dec700-aeb4-11eb-8bbb-cf40a11d2ddf.PNG)
+
+Esto requirió un código sencillo que utilizó comandos de cv2 como cvtColor y Canny para convertir el color de la cámara a diferentes tonos de negro y cambiar los valores de color de esta.
+
+![awef](https://user-images.githubusercontent.com/83785021/117402803-ea6c1000-aebb-11eb-835f-f24519005dbf.png)
+
 # Especificaciones del uso del filtro de distorción 
 - Se recomienda que el lugar donde se coloque la cámara tenga una buena iluminación para que el filtro pueda alcanzar a definir bien todos los objetos.
 # App detectora de cubrebocas
 Consiste básicamente en detectar cuando una persona está utilizando cubrebocas o no, marcando en un rectángulo color verde cuando la persona lleva el cubrebocas puesto y en un rectángulo rojo cuando no.
+
 ![image](https://user-images.githubusercontent.com/83722304/117391735-30be7080-aeb6-11eb-8e37-0e78777a9a99.png)
 ![image](https://user-images.githubusercontent.com/83722304/117391769-40d65000-aeb6-11eb-84fb-40e9709b4505.png)
+
+Una parte crucial de este código, al igual que algunos pasados, fue la manera en la que se definió el área que la camará determinaría como evidencia para comprobar el cubrebocas. Esto pudo ser logrado usando coordenadas de la librería que determinan el área de la cara como un rectángulo, y usando predicciones de color que ayudan a determinar si se está empleando el uso del cubrebocas.
+
+![shiawaseninaritai](https://user-images.githubusercontent.com/83785021/117403378-e987ae00-aebc-11eb-89bb-81656461a125.png)
+
 # Especifcaciones del uso del detector del cubrebocas
 - Previo a la ejecución del programa, se debe cargar un documento que funcione como "clasificador", es decir, que especifique el caso en el que será positivo y el caso en el que será negativo.
 - Para que el clasificador funcione, se debe convertir el marco en escala de grises.
