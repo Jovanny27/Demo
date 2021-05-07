@@ -27,8 +27,22 @@ Esta aplicación consiste en colocar una imagen en la frente de las personas que
 # App de distorción de color
 Consiste en distorsionar el color del streaming de la cámara por un color negro de fondo, definiendo los contornos de las figuras con lineas blancas y rellenando los curpos de pequeñas figuras blancas irregulares.
 ![edges python](https://user-images.githubusercontent.com/83722304/117390981-b3dec700-aeb4-11eb-8bbb-cf40a11d2ddf.PNG)
+# Especificaciones del uso del filtro de distorción 
+- Se recomienda que el lugar donde se coloque la cámara tenga una buena iluminación para que el filtro pueda alcanzar a definir bien todos los objetos.
 # App detectora de cubrebocas
 Consiste básicamente en detectar cuando una persona está utilizando cubrebocas o no, marcando en un rectángulo color verde cuando la persona lleva el cubrebocas puesto y en un rectángulo rojo cuando no.
 ![image](https://user-images.githubusercontent.com/83722304/117391735-30be7080-aeb6-11eb-8e37-0e78777a9a99.png)
 ![image](https://user-images.githubusercontent.com/83722304/117391769-40d65000-aeb6-11eb-84fb-40e9709b4505.png)
-
+# Especifcaciones del uso del detector del cubrebocas
+- Previo a la ejecución del programa, se debe cargar un documento que funcione como "clasificador", es decir, que especifique el caso en el que será positivo y el caso en el que será negativo.
+- Para que el clasificador funcione, se debe convertir el marco en escala de grises.
+# Autores
+- Jovanny Rafael Ramirez | A01639287 Contribuyente
+- Agustín Gutiérrez Talavera | A01745019 Contribuyente 
+- Ana Luisa Montero | A01638796 Contribuyente
+- Diana Rojas | A01610999 Contribuyente
+- Ximena Aquino Pérez | A01639678 Contribuyente
+- Samir Ortiz | A01639922 Contribuyente
+- Diego Kury | A00227097 Contribuyente
+- OMES (Youtube). https://www.youtube.com/watch?v=R6wgJ6epakU - Documentación
+- 
