@@ -19,7 +19,7 @@ while i != 4:
         import cv2
         import imutils
 
-        cap=cv2.VideoCapture(0, cv2.CAP_DSHOW)
+        cap=cv2.VideoCapture(0)
         #imagenes a incrustar en el video
         #image = cv2.imread('gato.png', cv2.IMREAD_UNCHANGED)
         #image = cv2.imread('sombrerokul.png', cv2.IMREAD_UNCHANGED)
