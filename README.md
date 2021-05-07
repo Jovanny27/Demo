@@ -3,7 +3,7 @@ Integrantes:
 - Jovanny Rafael Ramirez | A01639287
 - Agustín Gutiérrez Talavera | A01745019
 - Ana Luisa Montero | A01638796
-- Diana Rojas | 
+- Diana Rojas | A01610999
 - Ximena Aquino Pérez | A01639678
 - Samir Ortiz | A01639922
 - Diego Kury | A00227097
