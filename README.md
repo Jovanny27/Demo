@@ -6,6 +6,7 @@ Integrantes:
 - Diana Rojas | 
 - Ximena Aquino Pérez | A01639678
 - Samir Ortiz | A01639922
+- Diego Kury | A00227097
 # Objetivo del proyecto
 Durante esta Semana Tec aprendimos profundizamos más acerca del uso de Python, más específicamente en la descarga y uso de distintas librerías, más específicamente la de OpenVC, la cual es una herramienta muy útil para utilizar la visión de la cámara mediante Python
 ## Instalar dependencias necesarias:
