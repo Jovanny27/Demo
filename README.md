@@ -24,3 +24,11 @@ Al correr el código, lo primero que aparece es el menú, el cual da a elegir cu
 # App de filtro
 Esta aplicación consiste en colocar una imagen en la frente de las personas que la cámara detecte. Algunas de las consideraciones de este filtro es que su tamaño se ajusta dependiendo de la distancia entre la persona y la cámara, y que se encuentra programado para solo aparecer en la frente. 
 ![filtro python](https://user-images.githubusercontent.com/83722304/117389921-cbb54b80-aeb2-11eb-9043-48723f738805.PNG)
+# App de distorción de color
+Consiste en distorsionar el color del streaming de la cámara por un color negro de fondo, definiendo los contornos de las figuras con lineas blancas y rellenando los curpos de pequeñas figuras blancas irregulares.
+![edges python](https://user-images.githubusercontent.com/83722304/117390981-b3dec700-aeb4-11eb-8bbb-cf40a11d2ddf.PNG)
+# App detectora de cubrebocas
+Consiste básicamente en detectar cuando una persona está utilizando cubrebocas o no, marcando en un rectángulo color verde cuando la persona lleva el cubrebocas puesto y en un rectángulo rojo cuando no.
+![image](https://user-images.githubusercontent.com/83722304/117391735-30be7080-aeb6-11eb-8e37-0e78777a9a99.png)
+![image](https://user-images.githubusercontent.com/83722304/117391769-40d65000-aeb6-11eb-84fb-40e9709b4505.png)
+
