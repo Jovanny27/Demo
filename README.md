@@ -1,11 +1,13 @@
 # Evidencia Equipo 1
 Integrantes: 
 - Jovanny Rafael Ramirez | A01639287
-- Agustín Gutiérrez Talavera | 
+- Agustín Gutiérrez Talavera | A01745019
 - Ana Luisa Montero | A01638796
 - Diana Rojas | 
 - Ximena Aquino Pérez | A01639678
 - Samir Ortiz | A01639922
+# Objetivo del proyecto
+Durante esta Semana Tec aprendimos profundizamos más acerca del uso de Python, más específicamente en la descarga y uso de distintas librerías, más específicamente la de OpenVC, la cual es una herramienta muy útil para utilizar la visión de la cámara mediante Python
 ## Instalar dependencias necesarias:
 - Python3
 - OpenCV
@@ -14,7 +16,3 @@ Integrantes:
 - Brew
 - Mtcnn
 - imutils
-# Objetivo de programa filtro.py 
-El objetivo del programa filtro es básicamente colocar la imagen del borrego Tec en la frente de la persona que se encuentra frente a la cámara. Algunas de las consideraciones que se tomaron en cuenta para que el filtro funcione de la manera más optima posible fueron:
--Ajuste del filtro (puede ajustarse dependiendo de la distancia entre la persona y la cámara).
--Ajuste predeterminado del filtro (Se ajusta la imagen a la cara de la persona)
